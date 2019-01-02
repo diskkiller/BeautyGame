@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/bg">
+
+
+
+
+
+
+    <game.qiu.com.beautygame.ZoomView
+        android:id="@+id/zoomview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:id="@+id/select_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择图片"
+                    />
+                <Button
+                    android:id="@+id/select_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下一关"
+                    />
+                <Button
+                    android:id="@+id/btn_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="帮助"
+                    />
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回"
+                    />
+                <Button
+                    android:id="@+id/btn_scaleScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全屏"
+                    />
+            </LinearLayout>
+
+
+            <game.qiu.com.beautygame.mGamePintuLayout
+                android:id="@+id/id_gameview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="5dp" >
+            </game.qiu.com.beautygame.mGamePintuLayout>
+        </LinearLayout>
+
+
+
+
+    </game.qiu.com.beautygame.ZoomView>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieView"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        app:lottie_fileName="confetti.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="false"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/scan_lottieView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="500dp"
+        android:layout_marginBottom="100dp"
+        app:lottie_fileName="loader_animation.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+
+</RelativeLayout>

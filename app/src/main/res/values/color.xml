@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+
+
+
+
+    <color name="transparent05">#0B000000</color>
+    <color name="transparent10">#1A000000</color>
+    <color name="transparent20">#33000000</color>
+    <color name="transparent30">#4D000000</color>
+    <color name="transparent40">#66000000</color>
+    <color name="transparent50">#80000000</color>
+    <color name="transparent60">#9A000000</color>
+    <color name="transparent70">#B3000000</color>
+    <color name="transparent80">#CC000000</color>
+    <color name="transparent90">#E5000000</color>
+    <color name="transparent100">#FF000000</color>
+
+    <color name="white">#FFFFFF</color>  <!-- 白色 -->
+    <color name="yellow">#fbc02d</color> <!-- 黄色 -->
+    <color name="gold">#FFD700</color>   <!-- 金色 -->
+    <color name="orange">#f57c00</color> <!-- 橙色 -->
+    <color name="red">#d01716</color>    <!-- 红色 -->
+    <color name="gray">#808080</color>   <!-- 灰色 -->
+    <color name="green">#0a7e07</color>  <!-- 绿色 -->
+    <color name="blue">#455ede</color>   <!-- 蓝色 -->
+    <color name="black">#000000</color>  <!-- 黑色 -->
+
+    <color name="item">#50000000</color>
+    <color name="placeholder">#33000000</color>
+    <color name="transparent_white">#00ffffff</color>
+    <color name="transparent10_white">#1Affffff</color>
+    <color name="transparent20_white">#33ffffff</color>
+    <color name="transparent30_white">#4Dffffff</color>
+    <color name="transparent40_white">#66ffffff</color>
+    <color name="transparent50_white">#80ffffff</color>
+    <color name="transparent60_white">#9Affffff</color>
+    <color name="transparent70_white">#B3ffffff</color>
+    <color name="transparent80_white">#CCffffff</color>
+    <color name="transparent90_white">#E5ffffff</color>
+    <color name="transparent100_white">#FFffffff</color>
+
+    <color name="ff008cd6">#ff008cd6</color>
+    <color name="ff333333">#ff333333</color>
+    <color name="ffcccccc">#ffcccccc</color>
+    <color name="ff666666">#ff666666</color>
+    <color name="ffffbbbb">#ffffbbbb</color>
+    <color name="ffeeeeee">#ffeeeeee</color>
+    <color name="ff999999">#ff999999</color>
+    <color name="ffefefef">#ffefefef</color>
+    <color name="ffe6002d">#ea3e3f</color>
+    <color name="ff727171">#ff727171</color>
+    <color name="ffdddddd">#ffdddddd</color>
+    <color name="ff71c0e9">#ff71c0e9</color>
+    <color name="ff1f1f1f">#ff1f1f1f</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="background_color">#FFF7F7F7</color>
+    <color name="background_center_line">#FFDDDDDD</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="transparent">#ededed</color>
+
+    <color name="title_bg">#d5181f</color>
+
+    <color name="text_bg">#f50707</color>
+
+
+    <color name="transparent_00">#00000000</color>
+
+    <color name="text_color">#F8F8F8</color>
+    <color name="dropdownlist_press">#9d9087</color>
+    <color name="dropdownlist_item_press">#c1b5b7</color>
+
+
+    <!--zhou-->
+    <color name="mm333333">#333333</color>
+    <color name="fa3c3c">#fa3c3c</color>
+    <color name="afa3c3c">#66fa3c3c</color>
+    <color name="mm999999">#999999</color>
+    <color name="DDDDDD">#DDDDDD</color>
+    <color name="dddddd">#dddddd</color>
+    <color name="E8B5B7">#E8B5B7</color>
+    <color name="tab">#eb3e3f</color>
+    <color name="ffffff">#ffffff</color>
+    <color name="mm528c89">#528c89</color>
+    <color name="ae6058">#ae6058</color>
+
+    <color name="c366160">#366160</color>
+    <color name="c713c38">#713c38</color>
+
+
+    <color name="title_bg_color">#eb3e3f</color>
+    <color name="f75354">#f75354</color>
+    <color name="ea3e3f">#ea3e3f</color>
+    <color name="mm4a90e2">#4a90e2</color>
+    <color name="bbbbbb">#bbbbbb</color>
+    <color name="color_story_desc">#d0021b</color>
+    <color name="color_story_friends">#f56123</color>
+    <color name="color_story_mystory">#f5a623</color>
+
+
+    <!-- pickview-->
+    <color name="pickerview_timebtn_nor">#333333</color>
+    <color name="pickerview_timebtn_pre">#333333</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--用于popwindow的背景覆盖颜色-->
+    <color name="popwindowbg">#44444444</color>
+
+
+    <!--用于朋友圈的-->
+    <color name="color_8290AF">#8290AF</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_aeaeae">#aeaeae</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="name_selector_color">#cccccc</color>
+    <!--<color name="transparent">#00000000</color>-->
+    <color name="bg_no_photo">#EEEEEE</color>
+    <!--<color name="title_bg">#373B3E</color>-->
+    <color name="video_bg">#ededed</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="line_color">#e0e0e0</color>
+    <color name="sc_transparent_background">#00111111</color>
+
+    <drawable name="checked_item_bg">#30000000</drawable>
+
+    <color name="new_text_color_light">#9b9b9b</color>
+    <color name="new_text_color_dark">#333333</color>
+    <color name="new_text_color_red">#de3031</color>
+    <color name="new_text_color_blue">#6597e7</color>
+
+
+</resources>
